@@ -3,6 +3,7 @@ import Login from "./components/views/Login";
 import Register from "./components/views/Register";
 import Forgot from "./components/views/Forgot";
 
+
 const Auth = () => {
   return (
     <Router>

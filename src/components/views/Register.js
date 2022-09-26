@@ -72,7 +72,7 @@ const Register = () => {
             <div className="col-12 col-md-7 col-lg-6 auth-main-col text-center">
                 <div className="d-flex flex-column align-content-end">
                     <div className="auth-body mx-auto">
-                        <p>Create your Account</p>
+                        <h3 class="auth-form-title">Create your Account</h3>
                         <div className="auth-form-container text-start">
                             <form className="auth-form" method="POST" onSubmit={register} autoComplete={'off'}>
 
@@ -117,7 +117,7 @@ const Register = () => {
                                             onChange={(e) => setPassword(e.target.value)}
                                         />
 
-                                        <button type="button" className="btn btn-outline-primary btn-sm" onClick={(e) => togglePassword(e)} ><i className={showPassword ? 'far fa-eye' : 'far fa-eye-slash'} ></i> </button>
+                                        {/* <button type="button" className="btn btn-outline-primary btn-sm" onClick={(e) => togglePassword(e)} ><i className={showPassword ? 'far fa-eye' : 'far fa-eye-slash'} ></i> </button> */}
 
                                         <div className={`invalid-feedback text-start ${(validate.validate && validate.validate.password) ? 'd-block' : 'd-none'}`} >
                                             {(validate.validate && validate.validate.password) ? validate.validate.password[0] : ''}

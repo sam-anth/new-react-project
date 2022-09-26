@@ -26,6 +26,7 @@ class Form {
         return isInvalid;
     }
 
+    
     /**
      * Form Validator
      * @param  obj 

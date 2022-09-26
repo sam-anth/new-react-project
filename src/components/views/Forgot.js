@@ -50,7 +50,7 @@ const Forgot = () => {
             <div className="col-12 col-md-7 col-lg-6 auth-main-col text-center">
                 <div className="d-flex flex-column align-content-end">
                     <div className="auth-body mx-auto">
-                        <p>Forgot Password</p>
+                        <h3 class="auth-form-title">Forgot Password</h3>
                         <div className="auth-form-container text-start">
                             <form className="auth-form" method="POST" onSubmit={forgotPassword} autoComplete={'off'}>
                                 <div className="email mb-3">

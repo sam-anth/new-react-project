@@ -7,7 +7,7 @@ Clone this repository
 
 ```
 
-go to react-auth-template directory.
+go to react-form-login directory.
 
 In the project directory, you can run:
 
