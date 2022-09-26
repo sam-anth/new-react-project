@@ -1,11 +1,10 @@
-# React Auth Template
+# React Login
 
 This is my starter template for Login, Register and Forgot Password using ReactJS with simple form validation.
 
 ## Installation
 Clone this repository
-```bash
-git clone https://github.com/erinrugas/react-auth-template.git
+
 ```
 
 go to react-auth-template directory.
@@ -32,11 +31,10 @@ This will build the app for production.
 #### Login Form w/ invalid email validation
 #### *NOTE: to show this email error message, change the input type from "email" to "text"*
 
-![login](https://i.imgur.com/0QKNX05.png)
+
 
 #### Register Form
-![register](https://i.imgur.com/H8ZJOPj.png)
 
 #### Forgot Password Form
-![forgot](https://i.imgur.com/moZyR37.png)
+
 
